@@ -58,15 +58,18 @@
     display: none;
 }
 @media screen and (max-width:600px) {
-   .menu a:not(:first-child)
+   /* .menu a:not(:first-child)
     {
+        display: none;
+    } */
+    .menu a{
         display: none;
     }
     .menu a.icon
       {
         display: block;
         float: right;
-        display: none;
+        
     }
     
 }
@@ -136,7 +139,7 @@
         </div>
     <div class="menu">
        
-        <Div>
+        <div>
         <a href="#">HOME</a>
         <a href="#">ABOUT US</a>
         <a href="#">SERVICES</a>
@@ -146,7 +149,7 @@
         <a href="#">CONTACT US</a>
         <a href="#" class="icon">
             <i class="fa fa-bars"></i></a>
-    </Div>
+    </div>
     </div>
    
 </nav>
