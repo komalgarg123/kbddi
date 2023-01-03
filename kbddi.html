@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+       *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* body{
+            background-image: url(kbddi.jpg);
+            background-size: cover ;
+        } */
+        header{
+            width: 100%;
+            height: 100vh;
+            
+        }
+        
+        
+        nav{
+            
+            display: flex;
+            background-color:white;
+            justify-content: space-around;
+            padding: 30px 20px;
+            align-items: center;
+            
+
+        }
+        .menu a{
+         padding: 10px 20px;
+         text-decoration: none;
+          color:black;
+         font-weight: bold;
+       
+           
+        }
+        .headline a{
+            color: blue;
+          text-decoration: none;
+        font-size: 25px;
+        }
+        .headline a:hover{
+            color: rgb(98, 89, 89);
+        }
+        div a.home{
+            color: red;
+        }
+        img{
+            width: 100%;
+            /* position: fixed; */
+        }
+        .icon
+{
+    display: none;
+}
+@media screen and (max-width:600px) {
+   .menu a:not(:first-child)
+    {
+        display: none;
+    }
+    .menu a.icon
+      {
+        display: block;
+        float: right;
+        display: none;
+    }
+    
+}
+.menu2{
+    text-align: center;
+    margin-top: 100px;
+}    
+.menu3{
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(243, 225, 225);
+    padding: 80px;
+}  
+.menu4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.box{
+    width: 750px;
+}
+
+.box2 a{
+    
+    /* border: 1px solid gray; */
+    
+    
+     background-color: rgb(255, 238, 238);
+            
+             color: black;
+            text-decoration: none;
+         padding: 10px 20px;
+    
+    
+            line-height: 25px;
+        position: relative;
+        }
+        .box2 a::before{
+            content: "";
+        position: absolute;
+        top: 0%;
+        
+        height: 100%;
+        width: 0%;
+        border-bottom: 2px solid black;
+        /* transition: 0.4s linear; */
+        }
+        .box2 a:hover:before{
+        width: 70%;
+        
+    }
+    .box2 a:hover{
+        
+        color: black;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="headline">
+            <a href="#">SPORTS</a>
+        </div>
+    <div class="menu">
+       
+        <Div>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">SERVICES</a>
+        <a href="#">NEWS & BLOGS</a>
+        <a href="#">PROPERTIES</a>
+        <a href="#">CLIENTS</a>
+        <a href="#">CONTACT US</a>
+        <a href="#" class="icon">
+            <i class="fa fa-bars"></i></a>
+    </Div>
+    </div>
+   
+</nav>
+<img src="kbddi.jpg" alt="">
+<div class="menu2">
+    <h1>Welcome to sports</h1>
+    <p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas potenti maltam rem aperiam, eaque ipsa quae ab illitecto
+    </p>
+    <p>beatae vitae dicemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+</div>
+<br>
+<div class="menu3">
+ <h1>Welcome to sports</h1>
+ <p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas potenti maltam rem aperiam, eaque ipsa quae ab illitecto
+</p>
+<p>beatae vitae dicemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+</div>
+<div class="menu4">
+    <div class="box">
+        <h1>Why You Choose Us?</h1>
+        <br>
+        <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+        </p>
+        <br>
+        <p>Sed ut perspiciaatis iste natus error sit voluptatem probably haven't heard of them accusamus</p>
+        <br>
+        <p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+    <div class="box2">
+        <h1>Our Solution</h1>
+        <br>
+        <a href="#"> Accordion Heading Text Item # 1</a><br><br>
+        <a href="#">Accordion Heading Text Item # 2 </a><br><br>
+        <a href="#">Accordion Heading Text Item # 3 </a><br><br>
+        <a href="#"> Accordion Heading Text Item # 4</a><br><br>
+        
+        
+    </div>
+</div>
+</header>
+</body>
+</html>
